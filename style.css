@@ -165,4 +165,17 @@ p {
         object-fit: cover;
 
     }
+    .image-gallery {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 20px;
+        margin-inline: auto;
+    }
+    .image-gallery .gallery-item img {
+        aspect-ratio: 4 / 3;
+        object-fit: cover;
+    }
+    .site-footer ul.footer-nav {
+        margin-bottom: 10px;
+    }
 }
