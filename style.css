@@ -7,6 +7,9 @@ body {
     margin: 0;
     background-color: #192b38;
     color: #f5f1e8;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 .site-header {
     display: flex;
@@ -82,6 +85,7 @@ p {
     color: #f5f1e8;
     text-align: center;
     padding: 20px;
+    margin-top: auto;
 }
 .footer-nav {
     display: flex;
@@ -177,5 +181,20 @@ p {
     }
     .site-footer ul.footer-nav {
         margin-bottom: 10px;
+    }
+    .about-me {
+        display: grid;
+        grid-template-columns: 1fr 250px;
+        gap: 30px;
+        max-width: 800px;
+        margin-inline: auto;
+        padding: 20px;
+    }
+    .about-me p {
+        text-align: left;
+        line-height: 1.4;
+    }
+    .about-me .portrait {
+        margin: 0;
     }
 }
