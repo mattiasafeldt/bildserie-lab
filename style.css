@@ -142,9 +142,10 @@ p {
 .portrait {
     display: block;
     width: 100%;
-    max-width: 300px;
+    max-width: 250px;
     height: auto;
-    margin: 25px auto 30px;
+    margin: 25px auto;
+    opacity: 0.9;
 }
 /* CSS för större skärmar */
 @media (min-width: 768px) {
