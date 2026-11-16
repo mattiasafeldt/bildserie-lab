@@ -101,6 +101,9 @@ p {
     gap: 2px;
     justify-content: center;
 }
+.footer-nav a:hover {
+    text-decoration: underline;
+}
 .footer-nav a {
     display: block;
     padding: 10px;
@@ -143,6 +146,7 @@ p {
     height: auto;
     margin: 25px auto 30px;
 }
+/* CSS för större skärmar */
 @media (min-width: 768px) {
     .image-pair {
         display: grid;
